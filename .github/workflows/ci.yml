@@ -28,3 +28,6 @@ jobs:
     - name: Run tests
       run: |
         pytest
+git add .
+git commit -m "Add GitHub Actions workflow for CI"
+git push origin main
